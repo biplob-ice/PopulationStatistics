@@ -17,11 +17,11 @@ Function to import CSV data onto a MySQL database.
 2. Filter option by prefecture and year as GET requests by ajax.
 
 ## Installation
-# Cakephp
+### Cakephp
 1. Create database and tables (scripts included on concrete5.sql)
 2. Update database credentials on config/app.php
 
-# Rawphp
+### Rawphp
 1. Create database and tables (scripts included on concrete5.sql)
 2. Update database credentials on inc/database.php
 
@@ -54,3 +54,6 @@ Function to import CSV data onto a MySQL database.
 1. Could use any framework. But, for this small project I avoided it
 2. Could use CSV import class
 3. Could use more validation and display error messages
+
+![Screen1](https://raw.githubusercontent.com/biplob-ice/PopulationStatistics/master/screenshots/index.png)
+![Screen2](https://raw.githubusercontent.com/biplob-ice/PopulationStatistics/master/screenshots/import.png)

@@ -34,26 +34,22 @@ Function to import CSV data onto a MySQL database.
 
 ## What I have done
 
-1. Deesigned basic database structure.
-2. Read csv file line by line instead of reaing whole file once.
+1. Designed basic database structure.
+2. Read csv file line by line instead of reading whole file once.
 3. Checked file types both in php and html
 4. Used PDO 
 5. Transaction method to make sure proper data storing
-6. Designed database as prefecture name as Unique key to avoid duplicate entrys
+6. Designed database as prefecture name as Unique key to avoid duplicate entries
 7. Used a little bit design for my eye satisfaction
-
-2. If you know how to take care of multibyte files. (CSV file is encoded as Shift-JIS)
-3. You can validate and add error processes against irregular entry.
-4. You can follow [PHP Standards Recommendations](http://www.php-fig.org/psr/) 
-5. [Option] If you can use [Doctrine](http://www.doctrine-project.org/), it would be a plus (Not required)
-6. [Option] If you're familiar with AJAX process.
-7. [Option] If you can create a concrete5 package.
+8. Used basic validation
+9. Tried to follow [PHP Standards Recommendations](http://www.php-fig.org/psr/) 
+10. Used AJAX process to get the filtered data.
 
 ## What I could do
 
 1. Could use any framework. But, for this small project I avoided it
 2. Could use CSV import class
-3. Could use more validation and display error messages
+3. Could use more validation and display error messages. But avoided to finish it soon.
 
 ![Screen1](https://raw.githubusercontent.com/biplob-ice/PopulationStatistics/master/screenshots/index.png)
 ![Screen2](https://raw.githubusercontent.com/biplob-ice/PopulationStatistics/master/screenshots/import.png)
